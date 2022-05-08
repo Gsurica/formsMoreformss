@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header>
+            <div class="container-header">
+                <div class="logo-container">
+                    <h1>Formulário!</h1>
+                </div>
+                <div class="p-container">
+                    <cite class="cite">Guilherme surica</cite>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="form-wrapper">
+                <form class="form" action="#" method="get">   
+                    <fieldset>
+                        <legend>Dados pessoais</legend>
+                        <div class="inputText">
+                            <label for="name">Nome</label>
+                            <input type="text" name="normal" id="name" required>
+                            <label for="location">Endereço</label>
+                            <input type="text" name="normal" id="location" required>
+                            <label for="city">Cidade</label>
+                            <input type="text" name="normal" id="city" required>
+
+                            <select name="normal" id="states" required>
+                                <option value="states">Selecione o estado:</option>
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+                                <option value="EX">Estrangeiro</option>
+                            </select>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Dados profissionais</legend>
+                        <div class="second-fieldset">
+                            <div class="first-part">
+                                <div class="nature">
+                                    <h3>Natureza do cargo</h3>
+                                </div>
+                                <div class="radio-inputs">
+                                    <label for="gerencia">Gerencia</label>
+                                    <input type="radio" id="gerencia" value="gerencia" name="radio" checked>
+                                    <label for="financeiro">Financeiro</label>
+                                    <input type="radio" id="financeiro" value="financeiro" name="radio">
+                                    <label for="recepcao">Recepção</label>
+                                    <input type="radio" id="recepcao" value="recepcao" name="radio">
+                                    <label for="administrativo">Administrativo</label>
+                                    <input type="radio" id="administrativo" value="administrativo" name="radio">
+                                    <label for="juridico">Jurídico</label>
+                                    <input type="radio" id="juridico" value="juridico" name="radio">
+                                </div>
+                            </div>
+                            <div class="area">
+                                <h3>Área de interesse</h3>
+                            </div>
+                            <div class="checkbox-inputs">
+                                <input type="checkbox" id="computacao" name="checkbox" value="Computação">
+                                <label for="computacao">Computação</label>
+                                <input type="checkbox" id="biologia" name="checkbox" value="Biologia">
+                                <label for="biologia">Biologia</label>
+                                <input type="checkbox" id="mb" name="checkbox" value="Meio Ambiente">
+                                <label for="mb">Meio Ambiente</label>
+                                <input type="checkbox" id="eng" name="checkbox" value="Engenharia">
+                                <label for="eng">Engenharia</label>
+                                <input type="checkbox" id="hist" name="checkbox" value="História">
+                                <label for="hist">História</label>
+                            </div>
+                            <div class="text-area">
+                                <label for="cur">Mini-curriculo:</label>
+                                <textarea cols="40" rows="5" name="normal"></textarea>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="buttons-container">
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #6d6875;
+}
+
+.page-wrapper {
+    width: 800px;
+    height: 100vh;
+    background-color: #ffb4a2;
+    margin: 0 auto;
+}
+
+.container-header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-header {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+main {
+    padding: 10px;
+}
+
+.form-wrapper {
+    width: 100%;
+    height: 800px;
+    background-color: #ffcdb2;
+    border-radius: 10px;
+}
+
+legend {
+    padding: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.inputText {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+fieldset {
+    width: 600px;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputText input {
+    width: 200px;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffb4a2;
+}
+
+.inputText label {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.inputText select {
+    padding: 7px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.inputText select {
+    width: 200px;
+}
+
+.nature {
+    width: 100%;
+    display: flex;
+}
+
+.nature > h3 {
+    padding: 10px;
+    background-color: #6d6875;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.radio-inputs > label {
+    font-weight: bold;
+    padding: 5px;
+    font-style: italic;
+}
+
+.second-fieldset {
+    padding: 10px;
+}
+
+.area {
+    margin: 10px;
+    width: 300px;
+}
+
+.area h3 {
+    padding: 10px;
+    background-color: #6d6875;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.checkbox-inputs {
+    font-weight: bold;
+    padding: 5px;
+    font-style: italic;
+}
+
+.text-area {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-area label {
+    text-transform: lowercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.buttons-container button{
+    width: 150px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #b5838d;
+    border: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease-in;
+}
+
+button:hover {
+    background-color: #6d6875;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
